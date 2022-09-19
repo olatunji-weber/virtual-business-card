@@ -10,6 +10,10 @@ body {
     margin-bottom: auto;
 }
 
+.curve {
+    border-radius: 50%;
+}
+
 .qr {
     width: 150px;
 }
@@ -25,12 +29,16 @@ h3 {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
+    /* background: #ddebf8; */
+    /* background: #c27c57; */
+    background-image: url(images/scifi02.jpg);
+    /* color: #2b2839; */
+    color: #ffffff;
+    /* border-bottom: 6px solid #d8cefe; */
 }
 
 .border-blue{
     border: 1px dotted blue;
 }
+
 
